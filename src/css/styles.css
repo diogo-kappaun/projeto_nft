@@ -1,0 +1,101 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-family: 'Outfit', sans-serif;
+  font-size: 18;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  align-items: center;
+  box-shadow: 1px 1px 40px 10px rgba(0, 0, 0, 0.26);
+}
+
+.card .card-img {
+  margin-top: 20px;
+}
+
+.card .card-img img{
+  width: 280px;
+  border-radius: 8px;
+}
+
+.card .info {
+  margin: 20px;
+}
+
+.card .info .info-nft h1 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.card .info .info-nft p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.card .info .info-cotacao {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid hsla(215, 52%, 70%, 0.178);
+}
+
+.card .info .info-cotacao .cotacao {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.card .info .info-cotacao .cotacao img {
+  width: 10px;
+  height: 15px;
+}
+
+.card .info .info-cotacao .data-cotacao img {
+  width: 15px;
+} 
+
+.card .info .info-cotacao .cotacao h2{
+  font-weight: 700;
+  color: hsl(178, 100%, 50%);
+  font-size: 14px;
+}
+
+.card .info .info-cotacao .data-cotacao h2 {
+  font-size: 14px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.card .info .profile .profile-avatar {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.card .info .profile .profile-avatar img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(178, 100%, 50%);
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.card .info .profile .profile-avatar span {
+  color: hsl(178, 100%, 50%);
+}
